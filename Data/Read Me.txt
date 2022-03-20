@@ -1,0 +1,25 @@
+DATA
+
+SSBJ dataset :  the corpus of scientific articles based on information system which 
+comprises of 7,304 scientific articles from the senior scholars' basket of journals, published 
+between 1989 and September 2021 (Assiciation for Information Systems, 2021)
+
+
+Cue Phrases dataset: the cue phrases that corresponds to the specific category. The cue phrases were taken from the 
+website's Academic phrase library (REF-N-WRITE), which contains 20,000 academic phrase 
+templates. 
+
+
+keyword_vocab: Contains keywords and the specific class it belongs to. The keywords is selected based on domain 
+knowledge, the Academic phrase bank of the website (REF-N-WRITE) that provides 20,000 
+academic phrase templates and other research paper selected from ArXiv.
+
+
+rule_train_data: training data including the output from rule based function
+
+rule_test_data: testing data including the output from rule based function
+
+
+preprocessed_train:  training data without the output from rule based function
+
+preprocessed_test:  testing data without the output from rule based function
