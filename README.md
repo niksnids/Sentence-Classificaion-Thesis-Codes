@@ -1,5 +1,17 @@
 # Sentence-Classificaion-Thesis-Codes
 
+**Purpose**
+
+(1) Classify sentences of research paper into various categories using hybrid approach
+
+(2) Comparison of machine learning approaches to a hybrid approach 
+
+(3) Evaluation of previous research, the model, architecture and result to compare with the 
+model developed by this research
+
+(4) Evaluation of the neuro-symbolic approach with other hybrid approaches.
+
+
 **DATA**
 
 SSBJ dataset (df_sentences_with_cite): The corpus of scientific articles based on information system which 
@@ -51,7 +63,7 @@ Baseline.ipynb: The non-rulebased dataset (NRB) were train and tested on baselin
 Baseline-rule_based.ipynb: The rulebased dataset (RB) were train and tested on baseline models
 
 
-**CNN Models **
+**CNN Models**
 
 cnn_yoon_kim.ipynb: Using model by (Kim, 2014) to test on our NRB dataset to find the best embedding technique
 
